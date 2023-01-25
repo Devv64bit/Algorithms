@@ -110,6 +110,7 @@ def employees_stable_matchings():
 
 # Company is the proposer
 
+print("Company is the proposer:\n")
 init_available_companies()
 print(available_companies)
 companies_stable_matching()
@@ -118,6 +119,7 @@ print(matches)
 
 # Employee is the proposer
 '''
+print("Employee is the proposer:\n")
 init_available_employees()
 print(available_employees)
 employees_stable_matchings()
